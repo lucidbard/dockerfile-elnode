@@ -1,4 +1,4 @@
-FROM momonga/emacs-daemon
+FROM 032a52fcfe45
 MAINTAINER supermomonga
 
-EXPOSE 80
+

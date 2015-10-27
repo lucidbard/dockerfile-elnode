@@ -1,5 +1,5 @@
-emacs:
-  build: .
+elnode:
+  build: ./dockerfile-elnode
   environment:
     - SERVER_NAME=emacs_server
   ports:
@@ -7,4 +7,4 @@ emacs:
     - "1234:1234"
   volumes:
     - ./serverd:/root/.emacs.d/serverd
-    # - app:/root/app
+#    - ./app:/root/app
